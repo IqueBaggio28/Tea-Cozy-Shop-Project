@@ -1,0 +1,139 @@
+
+body{
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 0;
+    z-index: 4;
+    background-color: black;
+}
+
+header img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+header ul{
+    display: flex;   
+    margin-right: 10px;
+    padding: 0;
+
+}
+
+header ul li{
+    margin-left: 15px;
+    list-style-type: none;
+}
+
+header .list a{
+    color: seashell;
+}
+
+/*      END OF HEADER       */
+
+
+/*      BEGGINING OF BANNER     */
+
+main{
+    margin-top: 69px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.banner-background{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1b86eyr*_ga*Mjg3NTkwNjY2My4xNjg4MTIzMTY4*_ga_3LRZM6TM9L*MTY4ODEzNTQzNy4zLjEuMTY4ODEzNTkzMy42MC4wLjA.");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.banner-text{
+    background-color: black;
+    width: inherit;
+    opacity: 0.8;
+}
+
+.tea-of-the-month{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tea-of-the-month img{
+    height: 200px;
+    width: 300px;
+    padding: 5px;
+}
+
+
+/*      LOCATIONS       */
+
+.locations-background{
+    margin-top: 50px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1qlmraj*_ga*NDgxNTI0MTE2Ni4xNjg4NDcwODgz*_ga_3LRZM6TM9L*MTY4ODQ3NjE4OS4xLjEuMTY4ODQ3NjU1MC40LjAuMA..");
+    background-size: cover;
+    background-position: center;
+    width: 1200px;
+    height: 500px;
+}
+.location-content{
+    margin-top: 60px;
+}
+
+.box{
+    margin: 15px 20px 0;
+    padding-top: 35px;
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    opacity: 1;
+    
+}
+
+.contact{
+    height: 200px;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: left;
+    margin-left: 20px;
+    bottom: 0;
+}
